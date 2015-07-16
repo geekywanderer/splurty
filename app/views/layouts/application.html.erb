@@ -19,7 +19,7 @@
       </div>
     </div>
     <div class="col-xs-4 slogan">
-      Splurting out unsolicited advice about entrepreneurship since 2014
+      Splurting out motivation since 2015
     </div>
     <div class="col-xs-5 links">
       <%= link_to 'Contribute', '#' %>
@@ -29,7 +29,20 @@
   <hr />
   <br class="clear" />
 
-<%= yield %>
+  <div class="container">
+    <%= yield %>
+  </div>
+  
+  <div class="footer">
+    <div class="container">
+      <div class="col-xs-6">
+        <%= link_to "This isn't enough, I need more", "#", :class => 'next-quote' %>
+      </div>
+      <div class="col-xs-6 footer-blurb">
+        Built in San Diego, CA by <a href="https://github.com/geekywanderer">S. Tan</a><br />
+      </div>    
+  </div>
+  
 
 </body>
 </html>
